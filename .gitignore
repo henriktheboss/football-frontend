@@ -1,0 +1,32 @@
+### Node ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### Next.js ###
+.next/
+out/
+dist/
+
+# Production
+build/
+
+# Local env files
+.env*
+!.env.example
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+
+### MacOS ###
+.DS_Store
+
+### Logs ###
+logs
+*.log
+
+### System ###
+Thumbs.db
