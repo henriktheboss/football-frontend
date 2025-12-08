@@ -14,7 +14,7 @@ type Player = {
 
 type PlayerForm = {
     name: string;
-    shirtNumber: string; // string i form, konverteres til number ved submit
+    shirtNumber: string;
     position: string;
     team: string;
 };
@@ -128,7 +128,6 @@ export default function HomePage() {
             <h1>Football-spiller admin</h1>
             <p>Enkel frontend for å teste football-backend.</p>
 
-            {/* Opprett spiller */}
             <section style={{ marginTop: "2rem", marginBottom: "2rem" }}>
                 <h2>Opprett ny spiller</h2>
                 <form
@@ -166,8 +165,6 @@ export default function HomePage() {
                     <button type="submit">Lagre spiller</button>
                 </form>
             </section>
-
-            {/* Filter + liste */}
             <section>
                 <h2>Spillere</h2>
 
